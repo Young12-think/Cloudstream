@@ -154,6 +154,28 @@
         "fileHash": "sha256-d60dfecd25774c5d8bc9ec19a49921d644b12c173360831c2f7a2a6f3f0356ab"
     },
     {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Cgvindo.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Cgvindo",
+        "internalName": "Cgvindo",
+        "authors": [
+            "Hexated"
+        ],
+        "description": "CGVIndo - Streaming Movie and TV Series Subtitle Indonesia",
+        "fileSize": 28966,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-2a32ce7e5bbdfe1c7572e636d3f29cea6010ccfc72e7c4240553f258630b4d08"
+    },
+    {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/DonghubProvider.cs3",
         "status": 1,
         "version": 3,
