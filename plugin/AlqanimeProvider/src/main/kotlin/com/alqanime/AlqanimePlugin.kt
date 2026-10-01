@@ -1,0 +1,14 @@
+package com.alqanime
+
+import android.content.Context
+import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
+import com.lagradost.cloudstream3.plugins.Plugin
+
+@CloudstreamPlugin
+class AlqanimePlugin : Plugin() {
+    override fun load(context: Context) {
+        AlqanimeDomain.appContext = context.applicationContext
+        openSettings = { ctx -> AlqanimeDomain.openSettings(ctx) }
+        registerMainAPI(Alqanime())
+    }
+}

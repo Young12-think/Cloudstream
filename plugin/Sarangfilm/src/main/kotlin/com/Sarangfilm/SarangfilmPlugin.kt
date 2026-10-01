@@ -1,0 +1,27 @@
+package com.sarangfilm
+
+import android.content.Context
+import com.lagradost.cloudstream3.plugins.CloudstreamPlugin
+import com.lagradost.cloudstream3.plugins.Plugin
+
+@CloudstreamPlugin
+class SarangfilmPlugin : Plugin() {
+    override fun load(context: Context) {
+        SarangfilmDomain.appContext = context.applicationContext
+        openSettings = { ctx -> SarangfilmDomain.openSettings(ctx) }
+        registerMainAPI(Sarangfilm())
+        registerExtractorAPI(Dingtezuni())
+        registerExtractorAPI(Movearnpre())
+        registerExtractorAPI(Mivalyo())
+        registerExtractorAPI(Bingezove())
+        registerExtractorAPI(Ryderjet())
+		registerExtractorAPI(Morencius())
+        registerExtractorAPI(Ghbrisk())
+        registerExtractorAPI(Hglink())
+		registerExtractorAPI(Hgcloud())
+        registerExtractorAPI(Dhcplay())
+        registerExtractorAPI(Streamcasthub())
+        registerExtractorAPI(Dm21upns())
+        registerExtractorAPI(Gofile())
+    }
+}
