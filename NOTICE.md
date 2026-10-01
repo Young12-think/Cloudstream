@@ -13,12 +13,22 @@ di repo ini → domain bawaan).
   (termasuk plugin di `plugin/`) didistribusikan di bawah **GPLv3**.
   Lihat file `LICENSE`.
 
-## Sumber provider film (16 situs / 15 provider) — `sites-movie.json`, `plugin/*`
+## Sumber provider film (17 situs / 16 provider) — `sites-movie.json`, `plugin/*`
 - Proyek: **CloudX-V2** oleh Asm0d3usX
 - Repo: https://github.com/Asm0d3usX/CloudX-V2
 - Lisensi: **MIT License**
 - Kode MIT boleh digabung ke dalam karya GPLv3; atribusi penulis asli
   dipertahankan di file `build.gradle.kts` tiap modul (`authors`).
+
+## Sumber provider CGVIndo — `plugin/Cgvindo`
+- Proyek: **cloudstream-extensions-hexated** oleh Hexated
+- Repo: https://github.com/hexated/cloudstream-extensions-hexated
+  (file `RebahinProvider/.../Cgvindo.kt` + `RebahinProvider.kt`)
+- Repo sumber tidak mencantumkan file lisensi eksplisit; kode di-porting
+  dengan atribusi penulis asli (`authors = listOf("Hexated")`).
+- Penyesuaian saat porting: `apmap()` yang deprecated-error diganti
+  `coroutineScope { map { async { } }.awaitAll() }`, dan domain mengikuti
+  resolusi 3-tier yang sama (override → JSON remote → bawaan).
 
 ## Perubahan oleh Young12-think/cloudstream
 - Konfigurasi domain terpusat: `sites-anime.json`, `sites-movie.json`.

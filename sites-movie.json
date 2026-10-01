@@ -1,1 +1,145 @@
-{"category":"movie","description":"Daftar situs film/series sub Indo. Domain diambil dari Website.json milik Asm0d3usX/CloudX (sumber live, lebih fresh dari hardcoded mainUrl di kode). Kalau domain mati/ganti, edit file ini — tanpa rebuild plugin.","sites":[{"domains":["https://itoshii-movie.com"],"id":"dutamovie","name":"Dutamovie","status":"active"},{"domains":["https://s9.iix.llc"],"id":"filmkita","name":"Filmkita","status":"active"},{"domains":["https://tv1.filmlokal.me"],"id":"filmlokal","name":"Filmlokal","status":"active"},{"domains":["https://idmxl.ink"],"id":"indomax","name":"IndoMax","status":"active"},{"domains":["https://tv2.kawanfilm21.co"],"id":"kawanfilm","name":"Kawanfilm","status":"active"},{"domains":["https://klikxxi.shop"],"id":"klikxxi","name":"KlikXXi","status":"active"},{"domains":["https://hisgloryco.com"],"id":"layarwarna","name":"LayarWarna","status":"active"},{"domains":["https://new39.ngefilm.site"],"id":"ngefilm","name":"Ngefilm","status":"active"},{"domains":["https://nomat.shop"],"id":"nomat","name":"Nomat","status":"active"},{"domains":["https://surgafilm21.homes"],"id":"nontonfilm","name":"NontonFilm","note":"Ada di Website.json CloudX, belum ada provider di repo V2","status":"active"},{"domains":["https://ww11.pencurimovie.sbs"],"id":"pencurimovie","name":"PencuriMovie","status":"active"},{"domains":["https://pf21.net"],"id":"pusatfilm","name":"PusatFilm","status":"active"},{"domains":["https://refugepdx.com"],"id":"pusatmovie","name":"PusatMovie","status":"active"},{"domains":["https://sarangfilm.diy"],"id":"sarangfilm","name":"SarangFilm","status":"active"},{"domains":["https://new13.savefilm21info.com"],"id":"savefilm","name":"SaveFilm","status":"active"},{"domains":["https://alternatif3.wgfilm21.net"],"id":"wgfilm21","name":"WGFilm21","status":"active"}],"updated":"2026-10-01","version":1}
+{
+  "category": "movie",
+  "description": "Daftar situs film/series sub Indo. Domain diambil dari Website.json milik Asm0d3usX/CloudX (sumber live, lebih fresh dari hardcoded mainUrl di kode). Kalau domain mati/ganti, edit file ini — tanpa rebuild plugin.",
+  "sites": [
+    {
+      "domains": [
+        "https://itoshii-movie.com"
+      ],
+      "id": "dutamovie",
+      "name": "Dutamovie",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://s9.iix.llc"
+      ],
+      "id": "filmkita",
+      "name": "Filmkita",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://tv1.filmlokal.me"
+      ],
+      "id": "filmlokal",
+      "name": "Filmlokal",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://idmxl.ink"
+      ],
+      "id": "indomax",
+      "name": "IndoMax",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://tv2.kawanfilm21.co"
+      ],
+      "id": "kawanfilm",
+      "name": "Kawanfilm",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://klikxxi.shop"
+      ],
+      "id": "klikxxi",
+      "name": "KlikXXi",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://hisgloryco.com"
+      ],
+      "id": "layarwarna",
+      "name": "LayarWarna",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://new39.ngefilm.site"
+      ],
+      "id": "ngefilm",
+      "name": "Ngefilm",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://nomat.shop"
+      ],
+      "id": "nomat",
+      "name": "Nomat",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://surgafilm21.homes"
+      ],
+      "id": "nontonfilm",
+      "name": "NontonFilm",
+      "note": "Ada di Website.json CloudX, belum ada provider di repo V2",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://ww11.pencurimovie.sbs"
+      ],
+      "id": "pencurimovie",
+      "name": "PencuriMovie",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://pf21.net"
+      ],
+      "id": "pusatfilm",
+      "name": "PusatFilm",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://refugepdx.com"
+      ],
+      "id": "pusatmovie",
+      "name": "PusatMovie",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://sarangfilm.diy"
+      ],
+      "id": "sarangfilm",
+      "name": "SarangFilm",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://new13.savefilm21info.com"
+      ],
+      "id": "savefilm",
+      "name": "SaveFilm",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://alternatif3.wgfilm21.net"
+      ],
+      "id": "wgfilm21",
+      "name": "WGFilm21",
+      "status": "active"
+    },
+    {
+      "domains": [
+        "https://cgvindo2.casa"
+      ],
+      "id": "cgvindo",
+      "name": "CGVIndo",
+      "status": "active"
+    }
+  ],
+  "updated": "2026-10-01",
+  "version": 1
+}
