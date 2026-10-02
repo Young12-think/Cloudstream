@@ -149,7 +149,7 @@ class Filmlokal : MainAPI() {
                         "post_id" to "$id"
                     )
                 ).document.selectFirst("iframe")?.getIframeAttr()?.let { httpsify(it) }
-                loadExtractor(server, "$directUrl/", subtitleCallback, callback)
+                server?.let { loadExtractor(it, "$directUrl/", subtitleCallback, callback) }
             }
         }
 
