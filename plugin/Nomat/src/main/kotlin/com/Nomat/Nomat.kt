@@ -202,14 +202,24 @@ class Nomat : MainAPI() {
     ): Boolean {
         loadMainUrlIfNeeded()
         return try {
-            val nhDoc = app.get(data, referer = mainUrl, timeout = 100L).document
+            // Jika data adalah halaman Nomat (episode), ambil dulu link nontonhemat.link-nya
+            val nhUrl = if (data.contains("nontonhemat.link")) {
+                data
+            } else {
+                val episodePage = app.get(data, referer = mainUrl, timeout = 100L).document
+                episodePage.selectFirst("div.video-wrapper a[href*='nontonhemat.link']")?.attr("href")
+                    ?: episodePage.selectFirst("a[href*='nontonhemat.link']")?.attr("href")
+                    ?: data
+            }
+
+            val nhDoc = app.get(nhUrl, referer = mainUrl, timeout = 100L).document
 
             nhDoc.select("div.server-item").forEach { el ->
                 val encoded = el.attr("data-url")
                 if (encoded.isNotBlank()) {
                     try {
                         val decoded = base64Decode(encoded)
-                        loadExtractor(decoded, data, subtitleCallback, callback)
+                        loadExtractor(decoded, nhUrl, subtitleCallback, callback)
                     } catch (_: Exception) {
                         println("Decode Error")
                     }
