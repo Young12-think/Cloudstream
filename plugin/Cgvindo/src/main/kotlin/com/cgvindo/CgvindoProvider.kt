@@ -8,6 +8,8 @@ import com.lagradost.cloudstream3.mvvm.logError
 import com.lagradost.cloudstream3.mvvm.safeApiCall
 import com.lagradost.cloudstream3.utils.*
 import com.lagradost.cloudstream3.utils.AppUtils.tryParseJson
+import com.lagradost.cloudstream3.utils.AppUtils.toJson
+import com.lagradost.cloudstream3.utils.AppUtils.parseJson
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
@@ -153,11 +155,13 @@ class CgvindoProvider : MainAPI() {
                 addTrailer(trailer)
             }
         } else {
-            val links =
-                app.get(baseLink).document.select("div#server-list div.server-wrapper div[id*=episode]")
-                    .map {
-                        fixUrl(base64Decode(it.attr("data-iframe")))
-                    }.toString()
+            val linksDoc = app.get(baseLink).document
+            val linksList = linksDoc.select("div.server-wrapper div[id*=episode]").mapNotNull {
+                it.attr("data-iframe").takeIf { a -> a.isNotBlank() }?.let { b -> fixUrl(base64Decode(b)) }
+            }.ifEmpty {
+                linksDoc.select("iframe").mapNotNull { it.attr("src").takeIf { a -> a.isNotBlank() } }
+            }
+            val links = linksList.toJson()
             newMovieLoadResponse(title, url, TvType.Movie, links) {
                 this.posterUrl = poster
                 this.year = year
@@ -180,7 +184,8 @@ class CgvindoProvider : MainAPI() {
         ensureDomain()
 
         coroutineScope {
-            data.removeSurrounding("[", "]").split(",").map { it.trim() }.map { link ->
+            val urls = AppUtils.parseJson<List<String>>(data)
+            urls.map { link ->
                 async {
                     safeApiCall {
                         when {

@@ -19,7 +19,7 @@ import org.json.JSONObject
 
 class Nomat : MainAPI() {
 
-    override var mainUrl = "https://nomat.shop"
+    override var mainUrl = "https://nomat.world"
     private var directUrl: String? = null
     override var name = "Nomat"
     override val hasMainPage = true
