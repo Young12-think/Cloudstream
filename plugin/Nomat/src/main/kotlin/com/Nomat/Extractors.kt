@@ -82,17 +82,54 @@ class Hydrax: VidHidePro() {
 }
 
 
+private suspend fun getUrlWithReferer(
+    sourceName: String,
+    url: String,
+    referer: String?,
+    subtitleCallback: (SubtitleFile) -> Unit,
+    callback: (ExtractorLink) -> Unit
+) {
+    val trueReferer = referer ?: "https://nontonhemat.link/"
+    val embedUrl = url.replace("/download/", "/e/")
+    val res = app.get(embedUrl, referer = trueReferer, headers = mapOf(
+        "Referer" to trueReferer,
+        "Sec-Fetch-Dest" to "iframe",
+        "Sec-Fetch-Mode" to "navigate",
+        "Sec-Fetch-Site" to "cross-site"
+    ))
+    val packed = getPacked(res.text)
+    val script = if (!packed.isNullOrEmpty()) getAndUnpack(res.text)
+    else res.document.selectFirst("script:containsData(sources:)")?.data() ?: ""
+
+    Regex("""sources\s*:\s*\[\s*\{[^}]*file\s*:\s*['"]([^'"]+)['"]""").find(script)?.groupValues?.getOrNull(1)?.let { m3u8 ->
+        M3u8Helper.generateM3u8(sourceName, m3u8, referer = trueReferer).forEach(callback)
+    }
+    if (script.isEmpty()) {
+        // fallback: WebView
+        M3u8Helper.generateM3u8(sourceName, url, referer = trueReferer).forEach(callback)
+    }
+}
+
 class FileMoonSx : Filesim() {
     override val mainUrl = "https://filemoon.sx"
     override val name = "FileMoonSx"
+    override val requiresReferer = true
+    override suspend fun getUrl(url: String, referer: String?, subtitleCallback: (SubtitleFile) -> Unit, callback: (ExtractorLink) -> Unit) =
+        getUrlWithReferer(name, url, referer, subtitleCallback, callback)
 }
 
 class Streamhide : Filesim() {
     override var name = "Streamhide"
     override var mainUrl = "https://streamhide.to"
+    override val requiresReferer = true
+    override suspend fun getUrl(url: String, referer: String?, subtitleCallback: (SubtitleFile) -> Unit, callback: (ExtractorLink) -> Unit) =
+        getUrlWithReferer(name, url, referer, subtitleCallback, callback)
 }
 
 class Filelions : Filesim() {
     override var name = "Filelions"
     override var mainUrl = "https://filelions.to"
+    override val requiresReferer = true
+    override suspend fun getUrl(url: String, referer: String?, subtitleCallback: (SubtitleFile) -> Unit, callback: (ExtractorLink) -> Unit) =
+        getUrlWithReferer(name, url, referer, subtitleCallback, callback)
 }
