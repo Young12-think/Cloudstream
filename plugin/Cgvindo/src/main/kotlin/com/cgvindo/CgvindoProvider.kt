@@ -137,7 +137,7 @@ class CgvindoProvider : MainAPI() {
                 Pair(it.text(), it.attr("data-iframe"))
             }.groupBy { it.first }.map { eps ->
                 newEpisode(
-                    eps.value.map { fixUrl(base64Decode(it.second)) }.toString()
+                    eps.value.map { fixUrl(base64Decode(it.second)) }.toJson()
                 ) {
                     name = eps.key
                     episode = eps.key.filter { it.isDigit() }.toIntOrNull()
