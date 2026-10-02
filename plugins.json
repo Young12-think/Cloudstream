@@ -163,7 +163,7 @@
             "Hexated"
         ],
         "description": "CGVIndo - Streaming Movie and TV Series Subtitle Indonesia",
-        "fileSize": 28966,
+        "fileSize": 29872,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -173,7 +173,7 @@
             "AsianDrama"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-2a32ce7e5bbdfe1c7572e636d3f29cea6010ccfc72e7c4240553f258630b4d08"
+        "fileHash": "sha256-9a9730d0e77f94ae278600dcbb708cf94a47d906b161c50d996a3b7b7673f3dc"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/DonghubProvider.cs3",
@@ -484,7 +484,7 @@
             "Asm0d3usX"
         ],
         "description": "Nomat - Streaming Movie and TV Series",
-        "fileSize": 25445,
+        "fileSize": 25454,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -493,7 +493,7 @@
             "Movie"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-f396d7436bccf854ccb868839909a834589e9c4891abd0060e5accc1bbf0d258"
+        "fileHash": "sha256-dd4c0a22e5f783380a9592fc98afcb473d63dbbd302448e69ad31a00c91816e7"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NontonAnimeIDProvider.cs3",
