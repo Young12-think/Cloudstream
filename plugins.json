@@ -230,7 +230,7 @@
             "Asm0d3usX"
         ],
         "description": "DutaMovie - Streaming Movie and TV Series",
-        "fileSize": 33585,
+        "fileSize": 33715,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -239,7 +239,7 @@
             "AsianDrama"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-7e5376a5402ce4492245041193a0638bc4ebda54f051942ac671d4a1d1ff62d9"
+        "fileHash": "sha256-9ca8a27ea57326bbaa207527a6da67bf4c8031f2575bb33bb55e3b7c8d2d4644"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Filmkita.cs3",
@@ -272,7 +272,7 @@
             "Asm0d3usX"
         ],
         "description": "Filmlokal - Streaming Movie Sub Indo",
-        "fileSize": 26210,
+        "fileSize": 26335,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -281,7 +281,7 @@
             "AsianDrama"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-40f770bc5da1671f7c91fd2013232348c92647eaaa50b91b24ecadaa56ab23ca"
+        "fileHash": "sha256-de86515ebd4c6c4f670428a77cf5ea80efbe44caa3b9adb5a5157df2a40635dd"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Indomax.cs3",
@@ -314,7 +314,7 @@
             "Asm0d3usX"
         ],
         "description": "Kawanfilm - Streaming Movie Sub Indo",
-        "fileSize": 34036,
+        "fileSize": 34148,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -323,7 +323,7 @@
             "Movie"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-35b68c740b50885d8a61844ea8161c5a35b0d5c43f95e570d3d0a560a79d4e5a"
+        "fileHash": "sha256-67b658b1c9ed33e3ca9812b81c203241bd1eaf85c6f5eb6ed67eec3963933345"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/KlikXXi.cs3",
@@ -400,7 +400,7 @@
             "Asm0d3usX"
         ],
         "description": "LayarWarna - Streaming Movie Sub Indo",
-        "fileSize": 31116,
+        "fileSize": 31089,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -409,7 +409,7 @@
             "AsianDrama"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-742935704f62177f5be34126cdf9d6c951df971883c7efc0eef0ab0129b0c0c7"
+        "fileHash": "sha256-4db332ef725164d9da47358fde0c381329333a2b4a6213f884dc2af36b2fb51a"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NekopoiProvider.cs3",
@@ -441,7 +441,7 @@
             "Asm0d3usX"
         ],
         "description": "Ngefilm - Streaming Movie and TV Series",
-        "fileSize": 27589,
+        "fileSize": 27744,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -450,7 +450,7 @@
             "Movie"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-28755dcb3582a4b6198e7cb539a14787949d71550554ae0adbd41c6631bd77eb"
+        "fileHash": "sha256-8e9f404864b2a01047259dd8f067b56741bb4bb7deb2ca8be381ffa49ba021b1"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NimegamiProvider.cs3",
@@ -484,7 +484,7 @@
             "Asm0d3usX"
         ],
         "description": "Nomat - Streaming Movie and TV Series",
-        "fileSize": 25397,
+        "fileSize": 25445,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -493,7 +493,7 @@
             "Movie"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-7576f5f7e43cfcee98886df0e08c8ea80b2e3a4e5cb7558441d384c452afacb0"
+        "fileHash": "sha256-f396d7436bccf854ccb868839909a834589e9c4891abd0060e5accc1bbf0d258"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NontonAnimeIDProvider.cs3",
@@ -549,7 +549,7 @@
             "Asm0d3usX"
         ],
         "description": "Pencurimovie \u2014 Streaming Film & Serial",
-        "fileSize": 21939,
+        "fileSize": 21929,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -557,7 +557,7 @@
             "TvSeries"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-23530f7d2bd12b2acf046e2d0ae0a456e8cffa904776e8721998db3d2956a1bc"
+        "fileHash": "sha256-ed05ff528b8027827e4df45d2ed0e103b288bd1da27cb26033d5ac180a897008"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Pusatfilm.cs3",
@@ -633,7 +633,7 @@
             "Asm0d3usX"
         ],
         "description": "Sarangfilm - Streaming Movie and TV Series",
-        "fileSize": 36727,
+        "fileSize": 36813,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -642,7 +642,7 @@
             "AsianDrama"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-ba75d4fd5e020cb8f344b5a660bd4d69443ce2b89f870fa3b6ae293b70fd9944"
+        "fileHash": "sha256-0f3e64ac1f9302c1d8725e283106b712ab031403561f0c7307afb9db6a378645"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Savefilm.cs3",
