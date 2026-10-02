@@ -159,7 +159,7 @@ class Pencurimovie : MainAPI() {
         loadMainUrlIfNeeded()
         val document = app.get(data).document
         document.select("div.movieplay iframe").forEach {
-            val href = it.attr("data-src")
+            val href = it.getImageAttr()
             if (href.isNotBlank()) {
                 val finalUrl = followRedirect(href)
                 loadExtractor(finalUrl, subtitleCallback, callback)

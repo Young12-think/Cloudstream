@@ -179,7 +179,7 @@ class Nomat : MainAPI() {
                 addScore(rating ?: "")
             }
         } else {
-            val playUrl = document.selectFirst("div.video-wrapper a[href*='nontonhemat.link']")?.attr("href")
+            val playUrl = document.selectFirst("div.video-wrapper a[href*='nontonhemat.link']")?.attr("href") ?: document.selectFirst("div.server-item")?.attr("data-url")?.let { url }
 
             newMovieLoadResponse(title, url, TvType.Movie, playUrl ?: url) {
                 this.posterUrl = poster

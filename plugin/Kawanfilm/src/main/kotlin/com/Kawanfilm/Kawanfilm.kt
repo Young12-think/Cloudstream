@@ -205,7 +205,7 @@ class Kawanfilm : MainAPI() {
                 val server = app.post(
                     "$directUrl/wp-admin/admin-ajax.php",
                     data = mapOf("action" to "muvipro_player_content", "tab" to ele.attr("id"), "post_id" to "$id")
-                ).document.select("iframe").attr("src").let { httpsify(it) }
+                ).document.selectFirst("iframe")?.getIframeAttr()?.let { httpsify(it) }
                 loadExtractor(server, "$directUrl/", subtitleCallback, callback)
             }
         }

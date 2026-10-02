@@ -146,7 +146,7 @@ class LayarWarna : MainAPI() {
 					).document
 
 					response.select("iframe").forEach { iframe ->
-						val src = iframe.attr("src")?.let { httpsify(it) } ?: return@forEach
+						val src = iframe.getIframeAttr()?.let { httpsify(it) } ?: return@forEach
 						loadExtractor(src, "$directUrl/", subtitleCallback, callback)
 					}
 				}

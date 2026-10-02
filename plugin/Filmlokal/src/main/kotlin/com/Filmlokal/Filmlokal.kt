@@ -148,7 +148,7 @@ class Filmlokal : MainAPI() {
                         "tab" to ele.attr("id"),
                         "post_id" to "$id"
                     )
-                ).document.select("iframe").attr("src").let { httpsify(it) }
+                ).document.selectFirst("iframe")?.getIframeAttr()?.let { httpsify(it) }
                 loadExtractor(server, "$directUrl/", subtitleCallback, callback)
             }
         }

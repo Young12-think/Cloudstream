@@ -227,7 +227,7 @@ class Sarangfilm : MainAPI() {
                         "tab" to ele.attr("id"),
                         "post_id" to id
                     )
-                ).document.selectFirst("iframe")?.attr("src")?.let { httpsify(it) }
+                ).document.selectFirst("iframe")?.getIframeAttr()?.let { httpsify(it) }
 
                 serverUrl?.let { loadExtractor(it, "$directUrl/", subtitleCallback, callback) }
             }

@@ -213,9 +213,7 @@ class Ngefilm : MainAPI() {
 					)
 				)
 					.document
-					.select("iframe")
-					.attr("src")
-					.let { httpsify(it) }
+					.selectFirst("iframe")?.getIframeAttr()?.let { httpsify(it) }
 
 				loadExtractor(server, "$directUrl/", subtitleCallback, callback)
 			}
