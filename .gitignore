@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+plugin/.gradle/
+build/
+plugin/build/
+**/build/
+
+# Kotlin/Android
+*.class
+*.jar
+*.aar
+*.so
+*.dex
+local.properties
+*.iml
+.idea/
+*.DS_Store
+
+# Scripts
+fix_muvipro.py
