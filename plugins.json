@@ -484,7 +484,7 @@
             "Asm0d3usX"
         ],
         "description": "Nomat - Streaming Movie and TV Series",
-        "fileSize": 26041,
+        "fileSize": 28241,
         "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
         "language": "id",
         "tvTypes": [
@@ -493,7 +493,7 @@
             "Movie"
         ],
         "apiVersion": 1,
-        "fileHash": "sha256-ecff6419638f14a9f2fb78d4ae8b471a830c4d44b7c2c4efdd491012a1657e25"
+        "fileHash": "sha256-2431b786057ce35ec1af2f6e7067eb5ecb053e9a81ac50c99be97027a66428e3"
     },
     {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NontonAnimeIDProvider.cs3",
