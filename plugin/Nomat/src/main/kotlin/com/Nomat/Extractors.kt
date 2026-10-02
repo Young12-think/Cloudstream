@@ -8,6 +8,7 @@ import java.net.URI
 import com.lagradost.api.Log
 import com.lagradost.cloudstream3.app
 import com.lagradost.cloudstream3.extractors.VidHidePro
+import com.lagradost.cloudstream3.extractors.Filesim
 
 open class Dingtezuni : ExtractorApi() {
     override val name = "Earnvids"
@@ -78,4 +79,20 @@ class Bingezove : Dingtezuni() {
 class Hydrax: VidHidePro() {
     override var name = "Hydrax"
     override var mainUrl = "https://playhydrax.com"
+}
+
+
+class FileMoonSx : Filesim() {
+    override val mainUrl = "https://filemoon.sx"
+    override val name = "FileMoonSx"
+}
+
+class Streamhide : Filesim() {
+    override var name = "Streamhide"
+    override var mainUrl = "https://streamhide.to"
+}
+
+class Filelions : Filesim() {
+    override var name = "Filelions"
+    override var mainUrl = "https://filelions.to"
 }
