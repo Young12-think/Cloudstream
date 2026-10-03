@@ -1,0 +1,734 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/AlqanimeProvider.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "AlqanimeProvider",
+        "internalName": "AlqanimeProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Alqanime \u2014 Streaming Anime, Donghua Subtitle Indonesia",
+        "fileSize": 97680,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://cloudstream.zvlz.my.id/icon/alqanime.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-0e2139f11340ea143a9cb1dcabee5ee6200e3c1d3337d4303dad62bb4808ab48"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/AnichinProvider.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "AnichinProvider",
+        "internalName": "AnichinProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Anichin \u2014 Streaming Donghua Subtitle Indonesia",
+        "fileSize": 62591,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "Cartoon"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anichin.club&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-8aab582d1749eb40134c03229958af8360349f83c7fa1360d4e6eea2db2e6776"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/AnimasuProvider.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "AnimasuProvider",
+        "internalName": "AnimasuProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Animasu \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 65315,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://1.bp.blogspot.com/-713bWoqV1B8/XcKqwjGjsZI/AAAAAAAAFiM/3nA8P_d50FcCWEnw6uhSeVEtPzKDH6_eQCLcBGAsYHQ/s1600/animasu.ico",
+        "apiVersion": 1,
+        "fileHash": "sha256-f37c1abbefa021cc918c048214b3e4f6a9b2b5bdae7ab06d544e0e7dadf4baab"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/AnimeinProvider.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "AnimeinProvider",
+        "internalName": "AnimeinProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Animein \u2014 Streaming Anime Subtitle Indonesia (API)",
+        "fileSize": 53965,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://animein.net&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-0a533def1d723c8cee71ba8aab4e993fcebf0dc0317628e6f5aaf6002530bccb"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/AnimeSailProvider.cs3",
+        "status": 1,
+        "version": 13,
+        "name": "AnimeSailProvider",
+        "internalName": "AnimeSailProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "AnimeSail \u2014 Streaming Anime, Donghua Subtitle Indonesia",
+        "fileSize": 47619,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://aghanim.xyz/wp-content/themes/animesail/assets/images/ico.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-5fc3a0a6a41d3f24301da25734caaa4ca76e2ca0a431164c312ae6dc99f97b28"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/AnimexinProvider.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "AnimexinProvider",
+        "internalName": "AnimexinProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Animexin \u2014 Streaming Donghua Subtitle Indonesia",
+        "fileSize": 22284,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "Cartoon"
+        ],
+        "iconUrl": "https://animexin.dev/wp-content/uploads/2020/06/animexinv1.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-093fe78de880937ab5c04ab061c6abc8bcb3671df2097aab29cd7ed97a565d08"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/AnoboyProvider.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "AnoboyProvider",
+        "internalName": "AnoboyProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "AnoBoy \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 81077,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://anoboy.quest&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-d60dfecd25774c5d8bc9ec19a49921d644b12c173360831c2f7a2a6f3f0356ab"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Cgvindo.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Cgvindo",
+        "internalName": "Cgvindo",
+        "authors": [
+            "Hexated"
+        ],
+        "description": "CGVIndo - Streaming Movie and TV Series Subtitle Indonesia",
+        "fileSize": 29897,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "Anime",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-83092145d06e1d28e6cd775d2395bed50c513f191f5d668abf5d5a146895f3fb"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/DonghubProvider.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "DonghubProvider",
+        "internalName": "DonghubProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Donghub \u2014 Streaming Donghua Subtitle Indonesia",
+        "fileSize": 25550,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Anime",
+            "AnimeMovie",
+            "Cartoon"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://donghub.vip&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-588eee2218da687a65e32a3b171bae69eeb8bce2253c06ad74e328c8f9a99ae2"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/DubbindoProvider.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "DubbindoProvider",
+        "internalName": "DubbindoProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Dubbindo \u2014 Streaming Anime, Movie and TV Series",
+        "fileSize": 37948,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "TvSeries",
+            "Movie",
+            "Cartoon",
+            "Anime"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.dubbindo.site&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-3f91dc5229ffdef7d3eeba5c80440f95a72a8fe1b89cd3d99fa1ef3a91899af3"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Dutamovie.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Dutamovie",
+        "internalName": "Dutamovie",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "DutaMovie - Streaming Movie and TV Series",
+        "fileSize": 33715,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-9ca8a27ea57326bbaa207527a6da67bf4c8031f2575bb33bb55e3b7c8d2d4644"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Filmkita.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Filmkita",
+        "internalName": "Filmkita",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Filmkita - Streaming Movie and TV Series",
+        "fileSize": 30688,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-b87466bfbd87ad0487912dd8a9dbc2b7ef099d44c9572ebad37f1fe1e066a1fe"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Filmlokal.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Filmlokal",
+        "internalName": "Filmlokal",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Filmlokal - Streaming Movie Sub Indo",
+        "fileSize": 26335,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-de86515ebd4c6c4f670428a77cf5ea80efbe44caa3b9adb5a5157df2a40635dd"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Indomax.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Indomax",
+        "internalName": "Indomax",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Indomax - Streaming Movie and TV Series",
+        "fileSize": 26955,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-2c1c9f8342ee532a978dd1c9dcc30d2e1f5dc6100d3dfbe0de0fa96f335bda63"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Kawanfilm.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Kawanfilm",
+        "internalName": "Kawanfilm",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Kawanfilm - Streaming Movie Sub Indo",
+        "fileSize": 34148,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-67b658b1c9ed33e3ca9812b81c203241bd1eaf85c6f5eb6ed67eec3963933345"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/KlikXXi.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "KlikXXi",
+        "internalName": "KlikXXi",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "KlikXXi - Streaming Movie and TV Series",
+        "fileSize": 26948,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-419a13fc860a38c88fd93f8a11de6c2e3ba40a47545631b21ab67d239ed452d5"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/KuramanimeProvider.cs3",
+        "status": 1,
+        "version": 6,
+        "name": "KuramanimeProvider",
+        "internalName": "KuramanimeProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Kuramanime \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 67533,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=kuramanime.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-92b6fff287efac7d1b1a15081532ef0bee2cf572a9c8d8780cfe7237dc417dc6"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/KuronimeProvider.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "KuronimeProvider",
+        "internalName": "KuronimeProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Kuronime \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 55093,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://play-lh.googleusercontent.com/EFMkS1T-8txjLFIl9QxjcTRLa7a7Muv08C04b7ongYgodoY_b2T3GpxzGAQEx-eitfQ=w256",
+        "apiVersion": 1,
+        "fileHash": "sha256-277b022408f2e9a5eda7e59c8df655b07b77467dce5746c717fa202c6856790e"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/LayarWarna.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "LayarWarna",
+        "internalName": "LayarWarna",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "LayarWarna - Streaming Movie Sub Indo",
+        "fileSize": 31089,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-4db332ef725164d9da47358fde0c381329333a2b4a6213f884dc2af36b2fb51a"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/LK21.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "LK21",
+        "internalName": "LK21",
+        "authors": [
+            "Hermes"
+        ],
+        "description": "LK21 Layarkaca21 - Streaming Film dan Series",
+        "fileSize": 17895,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama",
+            "Anime"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-17336c6b66af80f6c7fe9784260d01e36137fa81e2219b592c7105feeffdfc9b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NekopoiProvider.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "NekopoiProvider",
+        "internalName": "NekopoiProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "NekoPoi \u2014 Streaming Hentai, Porn and JAV Subtitle Indonesia",
+        "fileSize": 47769,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "NSFW"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nekopoi.care&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-3aedca923ea2d156d04f6f70d22f1c2ffa111f7b2438ca03289d82365d7d7210"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Ngefilm.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Ngefilm",
+        "internalName": "Ngefilm",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Ngefilm - Streaming Movie and TV Series",
+        "fileSize": 27744,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-8e9f404864b2a01047259dd8f067b56741bb4bb7deb2ca8be381ffa49ba021b1"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NimegamiProvider.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "NimegamiProvider",
+        "internalName": "NimegamiProvider",
+        "authors": [
+            "Hexated"
+        ],
+        "description": "Nimegami \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 56094,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=nimegami.id&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-4022ebec7e88a7740c879fb5753e46b1c6ef1b4abfe41e1e11e8c19f1977d1fa"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Nomat.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Nomat",
+        "internalName": "Nomat",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Nomat - Streaming Movie and TV Series",
+        "fileSize": 28759,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-4d74c69efb7cb2a1437af5097e58e1b237c77113773ed93aab542aa7c5229252"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NontonAnimeIDProvider.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "NontonAnimeIDProvider",
+        "internalName": "NontonAnimeIDProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "NontonAnimeID \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 57975,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://s11.nontonanimeid.boats&size=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-9127d3bd0078d5df93a7a4f30f8ef9420502f954a3cc53b8adc4c88e7b1df4d6"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/OtakudesuProvider.cs3",
+        "status": 1,
+        "version": 8,
+        "name": "OtakudesuProvider",
+        "internalName": "OtakudesuProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "OtakuDesu \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 51718,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA"
+        ],
+        "iconUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr-sfek8gXmLpcAppEpaYbUDVtndQbCm_boh1-E91QrmSvsw-2l3-s2JOP&s=10",
+        "apiVersion": 1,
+        "fileHash": "sha256-9d4bc254021fe28edd3542c700c0313acd69235d9b7fcfef39f10346d9b357a0"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Pencurimovie.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Pencurimovie",
+        "internalName": "Pencurimovie",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Pencurimovie \u2014 Streaming Film & Serial",
+        "fileSize": 21929,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-ed05ff528b8027827e4df45d2ed0e103b288bd1da27cb26033d5ac180a897008"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Pusatfilm.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Pusatfilm",
+        "internalName": "Pusatfilm",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "PusatFilm - Streaming Movie and TV Series",
+        "fileSize": 24589,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AsianDrama",
+            "TvSeries",
+            "Movie"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-aca7925d355f2905286ea7e6f6176d8acf5cffefe2811f0be86a74026a2632ae"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Pusatmovie.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Pusatmovie",
+        "internalName": "Pusatmovie",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Pusatmovie - Streaming Movie and TV Series",
+        "fileSize": 29882,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-fe18d1601606c7f087ee566ed2b321ccdf3a38a1d1c4df33917e6928cafbb628"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/SamehadakuProvider.cs3",
+        "status": 1,
+        "version": 7,
+        "name": "SamehadakuProvider",
+        "internalName": "SamehadakuProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Samehadaku \u2014 Streaming Anime Subtitle Indonesia",
+        "fileSize": 46303,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "OVA",
+            "Anime"
+        ],
+        "iconUrl": "https://lh3.googleusercontent.com/zwKn_6sdYOdIiWg6Gtnx-Ar2DrVamlADnPN8BE4f84-a9aRo2Zc7mxbW5Qd26Z8cPFc",
+        "apiVersion": 1,
+        "fileHash": "sha256-3435e1031466c13aae990c4d0ad4c7eb8c23197f2393aa708a2cc64e60874f34"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Sarangfilm.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Sarangfilm",
+        "internalName": "Sarangfilm",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Sarangfilm - Streaming Movie and TV Series",
+        "fileSize": 36813,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-0f3e64ac1f9302c1d8725e283106b712ab031403561f0c7307afb9db6a378645"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/Savefilm.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "Savefilm",
+        "internalName": "Savefilm",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "Savefilm - Streaming Movie and TV Series",
+        "fileSize": 28238,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-b8f56c978fdf102b7b844126fe56f7ff13dfd0c3202548fd9de9578d30e7c48b"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/WGFilm21.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "WGFilm21",
+        "internalName": "WGFilm21",
+        "authors": [
+            "Asm0d3usX"
+        ],
+        "description": "WGFilm21 - Streaming Movie Sub Indo",
+        "fileSize": 30144,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-ef1e3cae098aa229196c61890d5010c4dcc722a12cdba7a6d520871561f0d3e9"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/WinbuProvider.cs3",
+        "status": 1,
+        "version": 3,
+        "name": "WinbuProvider",
+        "internalName": "WinbuProvider",
+        "authors": [
+            "Miku"
+        ],
+        "description": "Winbu \u2014 Streaming Anime & Series with Indonesian Subtitles",
+        "fileSize": 57829,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "AnimeMovie",
+            "Anime",
+            "OVA",
+            "TvSeries"
+        ],
+        "iconUrl": "https://winbu.org/wp-content/uploads/2025/04/file-0000000068a051f6aed60f781c75581b-conversation-id-67ef899f-e0f8-8011-8643-02848517c045-message-i-1-e1744432620825.png",
+        "apiVersion": 1,
+        "fileHash": "sha256-bc2740e0ee28bdfe3c5ca7fd2363db9244c003226a06a0524e9222c05b094b33"
+    }
+]
