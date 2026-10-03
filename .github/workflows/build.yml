@@ -63,6 +63,16 @@ jobs:
           rm -f "${GITHUB_WORKSPACE}/builds"/*.cs3 || true
           cp "${files[@]}" "${GITHUB_WORKSPACE}/builds/"
           cp build/plugins.json "${GITHUB_WORKSPACE}/builds/"
+          cat << 'EOF' > "${GITHUB_WORKSPACE}/builds/repo.json"
+          {
+            "name": "Cloudstream ID",
+            "description": "Koleksi plugin film dan anime subtitle Indonesia",
+            "manifestVersion": 1,
+            "pluginLists": [
+              "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/plugins.json"
+            ]
+          }
+          EOF
 
           echo "Built packages:"
           ls -la "${GITHUB_WORKSPACE}/builds"/*.cs3
@@ -74,6 +84,7 @@ jobs:
           path: |
             builds/*.cs3
             builds/plugins.json
+            builds/repo.json
           if-no-files-found: error
           retention-days: 14
 
