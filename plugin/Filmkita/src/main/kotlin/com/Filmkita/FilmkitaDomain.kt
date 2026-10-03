@@ -16,7 +16,7 @@ import org.json.JSONObject
 object FilmkitaDomain {
     const val PROVIDER_ID = "filmkita"
     const val REMOTE_JSON = "https://raw.githubusercontent.com/Young12-think/cloudstream/main/sites-movie.json"
-    const val FALLBACK = "https://2x.jalanmaxwin.site"
+    const val FALLBACK = "https://s12.iix.llc"
 
     private const val PREFS_NAME = "cloudstream_id_domains"
     private const val CACHE_TTL_MS = 6 * 60 * 60 * 1000L

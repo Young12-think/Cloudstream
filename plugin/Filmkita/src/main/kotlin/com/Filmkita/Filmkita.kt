@@ -10,7 +10,7 @@ import org.json.JSONObject
 import java.net.URI
 
 class Filmkita : MainAPI() {
-    override var mainUrl = "https://2x.jalanmaxwin.site"
+    override var mainUrl = "https://s12.iix.llc"
 	private var directUrl: String? = null
     override var name = "Filmkita"
     override val hasMainPage = true
