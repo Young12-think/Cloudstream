@@ -412,6 +412,28 @@
         "fileHash": "sha256-4db332ef725164d9da47358fde0c381329333a2b4a6213f884dc2af36b2fb51a"
     },
     {
+        "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/LK21.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "LK21",
+        "internalName": "LK21",
+        "authors": [
+            "Hermes"
+        ],
+        "description": "LK21 Layarkaca21 - Streaming Film dan Series",
+        "fileSize": 17895,
+        "repositoryUrl": "https://github.com/Young12-think/Cloudstream",
+        "language": "id",
+        "tvTypes": [
+            "Movie",
+            "TvSeries",
+            "AsianDrama",
+            "Anime"
+        ],
+        "apiVersion": 1,
+        "fileHash": "sha256-17336c6b66af80f6c7fe9784260d01e36137fa81e2219b592c7105feeffdfc9b"
+    },
+    {
         "url": "https://raw.githubusercontent.com/Young12-think/Cloudstream/builds/NekopoiProvider.cs3",
         "status": 1,
         "version": 4,
